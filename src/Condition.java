@@ -1,4 +1,4 @@
-public class Condition {
+abstract class Condition {
     private boolean isSick;
     private boolean canWork;
 
