@@ -3,9 +3,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        Self myself = new Self();
-        myself.setName("Earl");
-        myself.setAge(22);
+        // use constructor if data columns not large
+        Self myself = new Self("Earl", 22);
         myself.updateCondition(false, true);
 
         System.out.println("My name is " + myself.getName() + ". \nI am " + myself.getAge() + " years old.");
